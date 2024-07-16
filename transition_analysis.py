@@ -18,6 +18,9 @@ import os
 import time
 import sys
 
+from time import sleep
+
+
 
 PROMPT_TEMPLATE_GENERAL = ("""
 You are tasked with the role of a climate scientist, assigned to analyze a company's sustainability report. Based on the following extracted parts from the sustainability report, answer the given QUESTIONS.
